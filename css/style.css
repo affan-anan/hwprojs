@@ -1,0 +1,103 @@
+/* All common css start */
+*{
+    margin:0;
+    padding:0;
+}
+.clr{
+    clear: both;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* All common css end */
+.container{
+    padding:550px 0;
+    
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+   
+
+}
+.menu{
+    
+    width:1200px;
+    margin:0 auto;
+    background: red;
+    
+
+}
+.overlay{
+    height:100%;
+    width:100%;
+    background:rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top:0;
+    left:0;
+}
+.logo_part{
+   
+   width:350px;
+   line-height: 150px;
+    float: left;
+   
+}  
+.text_part{
+    width:850px;
+    float: left;
+   line-height:150px;
+}
+.text_part ul li{
+    display: inline-block;
+}
+.text_part ul li a{
+    padding: 0 15px;
+    font-size: 20px;
+    color: white;
+}
+.text{
+    text-align: center;
+}
+.text h2{
+    font-size:40px;
+    color:#ffffff;
+}
+.text h1{
+    font-size:60px;
+    color:#ffffff;
+}
+.pera{
+  font-size: 40px;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 110px;
+
+}
+.baxxo {
+text-align: center;
+padding: 60px 0px;
+font-size: 50px;
+
+}
+.baxxo a{ 
+    color:#ffffff;
+    border: 0px solid white;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background: #998675;
+
+}
+
+
+
+/* padding:25px 30px;
+width:150px;
+background: rgb(95, 100, 100);
+margin: 80px 1150px;
+text-align: center;
+border-radius: 2px; */
